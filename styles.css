@@ -1,0 +1,55 @@
+button{
+	width:400px;
+	height:40px;
+	color:white;
+	background-color: #00DAEC;
+	border: 0px;
+	font-size: 20px;
+    cursor: pointer;
+    text-align: left;
+	outline: none;
+}
+
+.container{
+	width:400px;
+	border:1px solid #00DAEC;
+
+}
+
+#sec1,#sec1,#sec3{
+	text-align: center;
+
+}
+
+.title:hover { 
+    background-color: #09B6C4;
+}
+
+
+.content{
+	height:0px;
+	overflow: auto;
+	transition: 1s;
+
+}
+
+p{
+	margin: 0px;
+}
+
+span {
+	float: left;
+	margin-left: 10px; 
+}
+
+div.panel {
+    overflow: hidden;
+}
+
+.show{
+	height: 100px;
+}
+
+.hidden{
+    max-height: 0px;
+}
